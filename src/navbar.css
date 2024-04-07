@@ -1,0 +1,15 @@
+.nav-links-left {
+    margin-left: auto !important;
+    margin-right: 30px;
+    
+  }
+
+  .navbar-custom {
+    background-color: #6B3CC9;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white; /* Change text color to white */
+  }
+   
+ 

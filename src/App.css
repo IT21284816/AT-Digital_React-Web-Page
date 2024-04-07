@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+/* Card.css */
+.card-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+  
+.card-overlay {
+    position: absolute;
+    top: 500px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF; /* Set linear gradient and fallback color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 560px; /* Set width */
+    height: 300px; /* Set height */
+    font-family: 'Inter'; /* Set font family */
+    font-style: normal; /* Set font style */
+    font-weight: 700; /* Set font weight */
+    font-size: 45px; /* Set font size */
+    line-height: 100%; /* Set line height */
+    letter-spacing: -0.02em; /* Set letter spacing */
+    text-transform: capitalize; /* Set text transform */
+    color: #FFFFFF; /* Set font color */
+    flex: none; /* Inside auto layout */
+    order: 0; /* Inside auto layout */
+    flex-grow: 0; /* Inside auto layout */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+    background-color: #F28D35; /* Set button color */
+    color: #FFFFFF; /* Set button text color */
+    padding: 0px 20px; /* Set button padding */
+    border: none;
+    
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Set button position */
+    bottom: 20px; /* Adjust button position from bottom */
+    left: 5%; /* Set button position from left */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.button:hover {
+    background-color: #e07225; /* Change button color on hover */
+}
+
+.image-description-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-left: 200px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .image-description-container1 img {
+    width: 40%;
+    height: auto;
+    margin-right: 150px; /* Adjust margin as needed */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .description1 {
+    flex: 1;
   }
-}
+ 
+
+  .image-description-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px; /* Adjust margin as needed */
+    margin-left: 150px;
+  }
+  
+  .image-description-container2 img {
+    width: 30%;
+    height: auto;
+    margin-left: 250px; /* Adjust margin as needed */
+  }
+  
+  .description2 {
+    flex: -1;
+  }
+  

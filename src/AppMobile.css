@@ -1,0 +1,63 @@
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .card-container {
+        
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-overlay {
+        top: 100%;
+        left: 50%;
+        bottom: 10px; 
+        transform: translateX(-50%); 
+        width: 100%; 
+    }
+
+
+    .image-description-container1 {
+        display:contents;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; 
+        
+        
+      }
+      
+      .image-description-container1 img {
+        width: 60%;
+        height: auto;
+        margin-left: 130px;
+        margin-top: 40%;
+        
+      }
+      
+      .description1 {
+        margin-left: 30%;
+        
+        
+      }
+
+      .image-description-container2 {
+        display:contents;
+        justify-content: center;
+        align-items:center;
+        margin-top: 20px; 
+        
+        
+      }
+      
+      .image-description-container2 img {
+        width: 40%;
+        height: auto;
+        margin-left: 200px;
+        margin-top: 20px;
+        
+      }
+      
+      .description2 {
+        margin-left: 30%;
+        
+        
+      }
+}
