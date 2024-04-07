@@ -16,6 +16,7 @@ function Footer() {
         />
           <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve a single objective - your business results.</p>
         </div>
+        
         <div className="footer-section">
           <h4>Our Technologies</h4>
           <ul>

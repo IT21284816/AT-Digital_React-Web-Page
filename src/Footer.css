@@ -36,4 +36,30 @@
     
   }
  
+
+
+
+  /* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    display:grid;
+    
+  }
+  .footer-section1 {
+    text-align: left;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+  }
+  .footer-section {
+    text-align: left;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    
+  }
+  
+}
+
   
