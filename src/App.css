@@ -54,16 +54,19 @@
     align-items: center;
     margin-top: 20px; 
     margin-left: 200px;
+    margin-right: 150px;
   }
   
   .image-description-container1 img {
     width: 40%;
     height: auto;
-    margin-right: 150px; 
+    margin-right: 100px; 
+    
   }
   
   .description1 {
     flex: 1;
+    
   }
  
 
@@ -73,6 +76,7 @@
     align-items: center;
     margin-top: -50px; 
     margin-left: 150px;
+    margin-right: 150px;
   }
   
   .image-description-container2 img {
