@@ -1,4 +1,3 @@
-/* Card.css */
 .card-container {
     position: relative;
     width: 100%;
@@ -10,56 +9,56 @@
     top: 500px;
     left: 30%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF; /* Set linear gradient and fallback color */
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
-    width: 560px; /* Set width */
-    height: 300px; /* Set height */
-    font-family: 'Inter'; /* Set font family */
-    font-style: normal; /* Set font style */
-    font-weight: 700; /* Set font weight */
-    font-size: 45px; /* Set font size */
-    line-height: 100%; /* Set line height */
-    letter-spacing: -0.02em; /* Set letter spacing */
-    text-transform: capitalize; /* Set text transform */
-    color: #FFFFFF; /* Set font color */
-    flex: none; /* Inside auto layout */
-    order: 0; /* Inside auto layout */
-    flex-grow: 0; /* Inside auto layout */
+    width: 560px; 
+    height: 300px; 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 45px; 
+    line-height: 100%; 
+    letter-spacing: -0.02em; 
+    text-transform: capitalize; 
+    color: #FFFFFF; 
+    flex: none;
+    order: 0; 
+    flex-grow: 0; 
 }
 
 .button {
-    background-color: #F28D35; /* Set button color */
-    color: #FFFFFF; /* Set button text color */
-    padding: 0px 20px; /* Set button padding */
+    background-color: #F28D35; 
+    color: #FFFFFF; 
+    padding: 0px 20px;
     border: none;
     
     cursor: pointer;
     font-size: 20px;
     transition: background-color 0.3s ease;
-    position: absolute; /* Set button position */
-    bottom: 20px; /* Adjust button position from bottom */
-    left: 5%; /* Set button position from left */
+    position: absolute; 
+    bottom: 20px; 
+    left: 5%; 
 }
 
 .button:hover {
-    background-color: #e07225; /* Change button color on hover */
+    background-color: #e07225; 
 }
 
 .image-description-container1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
     margin-left: 200px;
   }
   
   .image-description-container1 img {
     width: 40%;
     height: auto;
-    margin-right: 150px; /* Adjust margin as needed */
+    margin-right: 150px; 
   }
   
   .description1 {
@@ -71,14 +70,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -50px; /* Adjust margin as needed */
+    margin-top: -50px; 
     margin-left: 150px;
   }
   
   .image-description-container2 img {
     width: 30%;
     height: auto;
-    margin-left: 250px; /* Adjust margin as needed */
+    margin-left: 250px; 
   }
   
   .description2 {
@@ -88,28 +87,29 @@
 
 
   .collapsible {
-    background-color: #777;
-    color: white;
+    background-color: #FAF8FF;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 50%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 20px;
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #FAF8FF;
   }
   
   .collapsible:after {
     content: '\002B';
-    color: white;
+    color: black;
     font-weight: bold;
     float: right;
     margin-left: 5px;
+    
   }
   
   .active:after {
@@ -121,6 +121,19 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #FAF8FF;
     width: 50%;
+    color: #6F6C90;
+    text-align: left;
   }
+  
+  .collapsible.active {
+  color: #6B3CC9; /* Change this to your desired color */
+}
+
+
+
+  
+.faq-heading {
+  color: #5a4daa;
+}

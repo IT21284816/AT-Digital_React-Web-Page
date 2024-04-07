@@ -62,20 +62,20 @@ function App() {
       </div>
       <center><div>
       <br></br>
-        <h4>A Collapsible:</h4>
-        <button className="collapsible">Open Collapsible</button>
+        <h4 className="faq-heading">Frequently asked questions</h4>
+        <button className="collapsible">Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</button>
         <div className="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
         </div>
 
-        <button className="collapsible">Open Collapsible</button>
+        <button className="collapsible">Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</button>
         <div className="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
         </div>
 
-        <button className="collapsible">Open Collapsible</button>
+        <button className="collapsible">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</button>
         <div className="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
         </div>
       </div></center>
       <br></br><br></br><br></br><br></br><br></br>
