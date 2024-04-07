@@ -37,7 +37,7 @@ function App() {
           <div className="card-container">
             <img src={homepageImage} alt="Homepage" style={{ width: '100%', height: 'auto' }} />
             <div className="card-overlay">
-              {/* Your card content here */}
+              
               <p>We crush your competitors, goals, and sales records - without the B.S.</p>
               <button className="button">Get free consultation</button>
             </div>
@@ -48,14 +48,14 @@ function App() {
           <div className="description1">
             <h3>Web & Mobile App Development</h3>
             <p>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
-            {/* Additional description content */}
+            
           </div>
         </div>
         <div className="image-description-container2">
           <div className="description2">
             <h3>Digital Strategy Consulting</h3>
             <p>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
-            {/* Additional description content */}
+            
           </div>
           <img src={newImage1} alt="New Image" />
         </div>

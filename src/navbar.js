@@ -1,17 +1,17 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './navbar.css'; // Import the CSS file
+import './navbar.css'; 
 import Logo from './images/Logo.png'
 
 const NavigationBar = () => {
   return (
-    <Navbar className="navbar-custom" expand="lg"> {/* Apply the custom class here */}
+    <Navbar className="navbar-custom" expand="lg"> 
       <Navbar.Brand href="#home">
         <img
-           src={Logo} // Use the imported logo as src
-           height="25" // Adjust the height as needed
-           style={{ marginLeft: '30px' }} // Add margin to separate from other elements
+           src={Logo} 
+           height="25" 
+           style={{ marginLeft: '30px' }} 
            className="align-top"
            alt="Logo"
         />
