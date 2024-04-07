@@ -43,6 +43,7 @@
     left: 5%; 
 }
 
+
 .button:hover {
     background-color: #e07225; 
 }
@@ -137,3 +138,13 @@
 .faq-heading {
   color: #5a4daa;
 }
+
+.custom-btn {
+  background-color: #F28D35;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  
+ 
+}
+
