@@ -1,14 +1,17 @@
 /* Footer.css */
 .footer {
-    background-color: #5a4daa;
+    background-color: #6B3CC9;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .footer-content {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
   
   .footer-section h2, .footer-section h3 {
@@ -24,5 +27,11 @@
     margin-top: 20px;
     border-top: 1px solid white;
     padding-top: 10px;
+  }
+
+  .footer-section1 {
+    text-align: left;
+    width: 40%;
+    
   }
   
